@@ -30,3 +30,9 @@ You can have TypeScript create tsconfig.json with the recommended settings with:
 
 Example
 npx tsc --init
+
+Compile your TypeScript code:
+Example
+****npx tsc hello.ts
+and to run the js file that was generated 
+****node hello.js

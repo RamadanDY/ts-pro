@@ -1,2 +1,6 @@
-const names: string = "kofi"
-console.log(names)
+function greet(name: string): string {
+  return `Hello, ${name}!`;
+}
+
+const message: string = greet("World");
+console.log(message);
