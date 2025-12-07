@@ -1,2 +1,2 @@
-const name: string = "kofi"
-console.log(name)
+const names: string = "kofi"
+console.log(names)

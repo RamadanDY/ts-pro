@@ -1,0 +1,32 @@
+So developers need to look at documentation, or guess based on the implementation.
+
+TypeScript uses compile time type checking.
+
+Which means it checks if the specified types match before running the code, not while running the code.
+
+
+>>>>>How do I use TypeScript?
+A common way to use TypeScript is to use the official TypeScript compiler, which transpiles TypeScript code into JavaScript.
+
+The next section shows how to get the compiler setup for a local project.
+
+Some popular code editors, such as Visual Studio Code, have built-in TypeScript support and can show errors as you write code!
+
+Within your npm project, run the following command to install the compiler:
+
+****npm install typescript --save-dev
+
+The compiler is installed in the node_modules directory and can be run with: npx tsc.
+
+*****npx tsc
+
+
+Configuring the compiler
+By default the TypeScript compiler will print a help message when run in an empty project.
+
+The compiler can be configured using a tsconfig.json file.
+
+You can have TypeScript create tsconfig.json with the recommended settings with:
+
+Example
+npx tsc --init

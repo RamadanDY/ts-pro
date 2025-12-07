@@ -1,2 +1,2 @@
-var name = "kofi";
-console.log(name);
+var names = "kofi";
+console.log(names);
