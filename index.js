@@ -1,5 +1,5 @@
-var ans = true;
-console.log(ans);
+var greetings = "hello kitchen";
+console.log(greetings);
 /*function greet(name: string): string {
   return `Hello, ${name}!`;
 }

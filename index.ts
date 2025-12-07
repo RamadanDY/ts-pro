@@ -1,5 +1,6 @@
-const  ans:  boolean  = true 
-console.log(ans)
+let greetings: string = "hello kitchen"
+greetings.toLocaleUpperCase()
+console.log(greetings)
 
 /*function greet(name: string): string {
   return `Hello, ${name}!`;
