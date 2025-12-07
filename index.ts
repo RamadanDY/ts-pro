@@ -1,6 +1,10 @@
-function greet(name: string): string {
+const  ans:  boolean  = true 
+console.log(ans)
+
+/*function greet(name: string): string {
   return `Hello, ${name}!`;
 }
 
 const message: string = greet("World");
 console.log(message);
+*/
