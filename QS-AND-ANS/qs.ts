@@ -1,0 +1,1 @@
+//6️⃣ Write a function add that takes two numbers and returns their sum.
