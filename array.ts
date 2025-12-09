@@ -33,5 +33,14 @@ const last: {name: string,age: number} = {
 console.log(last.age)   
 
 
+///bojects with option 
+
+const list: {student: string,class?: number,seat: number} = {
+    student: "shaban",
+    seat: 5
+
+}
+
+console.log(list.seat)
 
 
