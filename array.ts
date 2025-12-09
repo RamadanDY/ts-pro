@@ -23,4 +23,15 @@ const shee = user[0]
 console.log(shee)
 console.log(user)
 
+//object 
+const last: {name: string,age: number} = {
+    name : "ramadan",
+    age : 23
+
+}
+
+console.log(last.age)   
+
+
+
 
