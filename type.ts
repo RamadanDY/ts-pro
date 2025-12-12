@@ -6,21 +6,15 @@ sheshh = 44
 console.log(sheshh)
 
 
-function student(name: string | number) {
-    return name
+///Union Types in Functions
+
+function games (name: string,time: number | boolean) {
+    console.log("this is the game i wanna play" + name + "and at the age" + time)
 }
 
+games("rama",33)
 
-
-student("hd bbbd")
-
-
-
-
-
-
-
-
+///🔹 Narrowing With Union Types
 
 
 

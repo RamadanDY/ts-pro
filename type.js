@@ -2,10 +2,10 @@
 var sheshh;
 sheshh = 44;
 console.log(sheshh);
-function student(name) {
-    return name;
+function games(name, time) {
+    console.log("this is the game i wanna play" + name + "and at the age" + time);
 }
-student("hd bbbd");
+games("rama", 33);
 var ID = 34333;
 console.log(ID);
 var names = "ramadan";
