@@ -1,5 +1,37 @@
+/////union types 
+const sheshh: 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ///✅ What is a Type Alias?
 //this is like creating your own custom data type 
+
+
+
+
+
+
+
+
+
+
+
 
 type myowm = number
 const ID: myowm = 34333
