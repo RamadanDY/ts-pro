@@ -1,10 +1,18 @@
 /////union types 
-const sheshh: 
+let sheshh: string | number
+
+
+sheshh = 44
+console.log(sheshh)
+
+
+function student(name: string | number) {
+    return name
+}
 
 
 
-
-
+student("hd bbbd")
 
 
 

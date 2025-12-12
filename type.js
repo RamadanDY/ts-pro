@@ -1,5 +1,11 @@
-///✅ What is a Type Alias?
-//this is like creating your own custom data type 
+/////union types 
+var sheshh;
+sheshh = 44;
+console.log(sheshh);
+function student(name) {
+    return name;
+}
+student("hd bbbd");
 var ID = 34333;
 console.log(ID);
 var names = "ramadan";
