@@ -5,4 +5,4 @@ function singAllTheSongs(singer: string, ...songs: string[]) {
 }
 
 singAllTheSongs("Alicia Keys");
-singAllTheSongs("Lady Gaga", "Bad Romance","Alicia Keys", "Just Dance", "Poker Face");
+singAllTheSongs("Lady Gaga", "Bad Romance","Alicia Keys", "st Dance", "Poker Face");
