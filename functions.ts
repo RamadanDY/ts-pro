@@ -23,7 +23,7 @@ singAllTheSongs("Lady Gaga", "Bad Romance","Alicia Keys", "st Dance", "Poker Fac
 
 // “For each item inside items, do this code.”
 
- type names = (name: string) => string
+ type names = string
 
 //const names = ['kofi','ama','john']
 function ghana (song: names , ...writter: string[]) {
