@@ -9,4 +9,16 @@ function singAllTheSongs(singer) {
     }
 }
 singAllTheSongs("Alicia Keys");
-singAllTheSongs("Lady Gaga", "Bad Romance", "Alicia Keys", "Just Dance", "Poker Face");
+singAllTheSongs("Lady Gaga", "Bad Romance", "Alicia Keys", "st Dance", "Poker Face");
+//const names = ['kofi','ama','john']
+function ghana(song) {
+    var writter = [];
+    for (var _i = 1; _i < arguments.length; _i++) {
+        writter[_i - 1] = arguments[_i];
+    }
+    for (var _a = 0, writter_1 = writter; _a < writter_1.length; _a++) {
+        var mynames = writter_1[_a];
+        console.log(song + "this is my name:" + mynames);
+    }
+}
+ghana("shatta", "sark", 'bhim');
