@@ -5,10 +5,13 @@ function singAllTheSongs(singer: string, ...songs: string[]) {
 }
 
 singAllTheSongs("Alicia Keys");
-singAllTheSongs("Lady Gaga", "Bad Romance","Alicia Keys", "st Dance", "Poker Face");
-
-
-
+singAllTheSongs(
+  "Lady Gaga",
+  "Bad Romance",
+  "Alicia Keys",
+  "st Dance",
+  "Poker Face"
+);
 
 /////for of loop
 ///A for–of loop is used to go through each value in a list (array) one by one.
@@ -23,14 +26,13 @@ singAllTheSongs("Lady Gaga", "Bad Romance","Alicia Keys", "st Dance", "Poker Fac
 
 // “For each item inside items, do this code.”
 
- type names = string
+type names = string;
 
 //const names = ['kofi','ama','john']
-function ghana (song: names , ...writter: string[]) {
-    for (const mynames of writter) {
-    console.log(song +"this is my name:"+mynames)
+function ghana(song: names, ...writter: string[]) {
+  for (const mynames of writter) {
+    console.log(song + "this is my name:" + mynames);
+  }
 }
 
-}
-
-ghana("shatta","sark",'bhim')
+ghana("shatta", "sark", "bhim");

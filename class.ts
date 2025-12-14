@@ -2,6 +2,9 @@ class School {
     name: string;
     location: string;
     population: number
+    constructor (name: string,location: string,population: number){
+
+    }
 }
 
 const Ramadans = new School()
