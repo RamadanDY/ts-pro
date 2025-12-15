@@ -46,7 +46,6 @@ class socca {
 
 const name1 = new socca("Shaban");
 console.log(name1);
-*/
 
 //// interface with classes to define the type
 
@@ -62,3 +61,26 @@ class laptopTypes(name:string,brand: string, type: number) implements follow {
 
  const me = new laptopTypes("name", "Dell", 3310);
  console.log(me)
+
+*/
+
+interface Follow {
+  name: string;
+  brand: string;
+  type: number;
+}
+
+class LaptopTypes implements Follow {
+  name: string;
+  brand: string;
+  type: number;
+
+  constructor(name: string, brand: string, type: number) {
+    this.name = name;
+    this.brand = brand;
+    this.type = type;
+  }
+}
+
+const me = new LaptopTypes("My Laptop", "Dell", 3310);
+console.log(me);
